@@ -1,0 +1,6 @@
+Ajax cannot use click function on mobile device
+Exp.  $(".btnDeleteUser).click(function(){})
+
+change to  $(document).on("click", ".btnDeleteUser", function(){})
+
+วิธีหา error -> inspector -> network -> look at parameter or everything
